@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poza"
+    android:weightSum="1"
+    app:layout_gravity="right|center">
+
+    <TextView
+        android:text="@string/restaurantul_steakmania_este_situat_in_bucuresti_recent_construit_ofera_un_spatiu_primitor_si_incapator_de_o_capacitate_de_50_de_locuri_ce_permit_organizarea_de_mese_festive_petreceri_intalniri_de_afaceri_dar_in_special_petrecerea_timpului_cu_familia_sau_cu_prietenii_intr_o_atmosfera_calduroasa_pentru_a_capata_savoare_si_intensitate_fiecare_preparat_are_la_baza_trei_aspecte_ingredientele_atent_selectionate_indemanarea_bucatarului_si_o_prezentare_originala_restaurantul_nostru_ramane_in_esenta_o_promisiune_familiala_dar_si_un_prilej_de_incantare_a_simturilor_culinare_va_asteptam_pentru_a_savura_preparatele_noastre_iar_surprizele_nu_vor_intarzia_sa_apara"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/textView"
+        android:scrollX="@dimen/activity_horizontal_margin"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_weight="0.35"
+        tools:ignore="InefficientWeight" />
+
+    <TextView
+        android:text="@string/contacteaza_ne_adresa_aleea_rotunda_10_sector_4_bucuresti_telefon_0760281042_email_contact_steakmania_ro"
+        android:layout_width="248dp"
+        android:layout_height="117dp"
+        android:id="@+id/textView5"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        android:gravity="start"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="@string/program_luni_14_00_23_00_marti_joi_12_00_23_00_vineri_duminica_12_00_23_00"
+        android:layout_width="212dp"
+        android:layout_height="68dp"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center" />
+</LinearLayout>

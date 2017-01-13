@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/ccos"
+        android:id="@+id/imageView13"
+        android:textAlignment="viewEnd"
+     />
+
+    <Button
+        android:text="@string/finalizare_comanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:textSize="24sp"
+        android:layout_weight="0.22" />
+
+    <TextView
+        android:text="@string/stakemania_va_ureaza_pofta_buna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView69"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_weight="0.36"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:text="@string/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView73"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_weight="0.20" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar" />
+</LinearLayout>

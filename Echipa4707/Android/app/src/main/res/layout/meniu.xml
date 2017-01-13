@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="MENIU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="36sp" />
+
+            <TextView
+                android:text="SUPE/CREME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Supa mediteraneana cu fructe de mare   400g     18lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox8"
+                android:cursorVisible="true"
+                android:contextClickable="true" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox9"
+                android:text="Ciorba de vitel de lapte     400g           9lei" />
+
+            <CheckBox
+                android:text="Supa/Crema zilei   400g     9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox10" />
+
+            <TextView
+                android:text="(intreaba ospatarul)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28" />
+
+            <TextView
+                android:text="SALATE APERITIV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Salata Caesar  350g     19lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox11" />
+
+            <TextView
+                android:text="(pui asiatic,dressing iaurt,mix de salate)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29" />
+
+            <CheckBox
+                android:text="Salata Gama   350g      23 lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox12" />
+
+            <TextView
+                android:text="(muschi de vita,ou,mix de salate,legume)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30" />
+
+            <TextView
+                android:text="PASARE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Frigarui de pui yang   300g     22lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox13" />
+
+            <TextView
+                android:text="(pulpa de pui,legume,sos thai)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33" />
+
+            <CheckBox
+                android:text="Aripioare de pui   300g     24 lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox14" />
+
+            <TextView
+                android:text="(aripioare in crusta pan cu duet de sosuri chillie/dixie)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34" />
+
+            <CheckBox
+                android:text="Pulpa de rata confiata   350g     29lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox15" />
+
+            <TextView
+                android:text="(pulpa de rata la cuptor pe pat de piure de cartofi dulci si sparanghel)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35" />
+
+            <TextView
+                android:text="BERBECUT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Tigaie de berbecut   400g     29 lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox16" />
+
+            <TextView
+                android:text="(muschi file julien,branza gouda si mamaliga)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36" />
+
+            <CheckBox
+                android:text="Rack berbecut   350g    33lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox21" />
+
+            <TextView
+                android:text="(cotlete de berbecut la gratar cu oregano)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37" />
+
+            <CheckBox
+                android:text="Muschiulet de berbecut   250g     38lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox23" />
+
+            <TextView
+                android:text="(frigarui de muschiulet limoni la gratar)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38" />
+
+            <TextView
+                android:text="PORC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Cotletul macelarului   350g    26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox22" />
+
+            <CheckBox
+                android:text="Turnedo   250g     26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox20" />
+
+            <CheckBox
+                android:text="T-bone de porc   350g     26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox18" />
+
+            <CheckBox
+                android:text="Porchetta   400g     28lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox17" />
+
+            <CheckBox
+                android:text="Big Stake   500g     29lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox19" />
+
+            <CheckBox
+                android:text="Pork Ribs   500g     33lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox25" />
+
+            <TextView
+                android:text="BURGER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Gama Burger   23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox27" />
+
+            <CheckBox
+                android:text="Chicken Burger   23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox28" />
+
+            <CheckBox
+                android:text="Lamb Greek Burger   23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox30" />
+
+            <TextView
+                android:text="PASTE "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Paste al forno   350g     21lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox29" />
+
+            <CheckBox
+                android:text="Paste siciliene   350g     22lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox26" />
+
+            <CheckBox
+                android:text="Paste carbonara   350g     24lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox24" />
+
+            <CheckBox
+                android:text="Paste cu muschi de vita   350g     26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox31" />
+
+            <TextView
+                android:text="VITA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="fRIGARUI bLACK aNGUS   250G     36LEI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox33"
+                tools:text="Frigarui Black Angus   250g     36lei" />
+
+            <CheckBox
+                android:text="Muschi de vita la gratar cu sos la alegere   250g     44lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox34" />
+
+            <CheckBox
+                android:text="Antricot Argentina   350-400g     70lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox35" />
+
+            <CheckBox
+                android:text="Delmonico Steak   350     35lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox36" />
+
+            <CheckBox
+                android:text="Beef sparanghel   300g     56lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox32" />
+
+            <TextView
+                android:text="GARNITURI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <CheckBox
+                android:text="Inele de ceapa Tempura   180g     9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox39" />
+
+            <CheckBox
+                android:text="Cartofi gratinati   180g     7lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox38" />
+
+            <CheckBox
+                android:text="Legume la gratar   180g     9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox41" />
+
+            <CheckBox
+                android:text="Cartofi la cuptor cu rozmarin   180g     9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox40" />
+
+            <CheckBox
+                android:text="Salata asortata   180g     9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox37" />
+
+            <TextView
+                android:text="DESERT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="Tarta cu mere   160g     14lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox45" />
+
+            <CheckBox
+                android:text="Tortul casei   160g     11lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox46" />
+
+            <CheckBox
+                android:text="Cheesecake cu fructe de padure   160g     12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox44" />
+
+            <CheckBox
+                android:text="Sufleu de ciocolata cu inghetata   200g     16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox43" />
+
+            <CheckBox
+                android:text="Inghetata asortata   150g     12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox42" />
+
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>

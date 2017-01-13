@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    app:layout_scrollFlags="scroll"
+    android:layout_centerVertical="true"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollY="@dimen/activity_vertical_margin"
+
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarDefaultDelayBeforeFade="@android:integer/config_longAnimTime"
+    android:scrollbarStyle="insideInset"
+    android:baselineAligned="false"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                app:srcCompat="@drawable/bbigsteak"
+                android:id="@+id/imageView4"
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/big_steak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:fontFamily="cursive"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bburgers"
+                android:id="@+id/imageView5"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/burgers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pporcribs"
+                android:id="@+id/imageView6"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/porc_ribs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ddelmonicosteak"
+                android:id="@+id/imageView7"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/delmonico_steak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:fontFamily="cursive"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textColorHighlight="@android:color/holo_orange_light"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rrackberbecut"
+                android:id="@+id/imageView8"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/rack_berbecut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/suupa"
+                android:id="@+id/imageView16"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/supa_mediteraneana_cu_fructe_de_mare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cheesecake"
+                android:id="@+id/imageView10"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:text="@string/cheesecake_cu_fructe_de_padure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

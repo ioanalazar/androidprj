@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/poza"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:text="@string/rezervari_stakemania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_dark" />
+
+    <DatePicker
+        android:layout_width="361dp"
+        android:layout_height="110dp"
+        android:id="@+id/datePicker"
+
+        android:alwaysDrawnWithCache="true"
+        android:animateLayoutChanges="true"
+        android:animationCache="true"
+        android:nextFocusDown="@android:color/background_dark"
+        android:onClick="@string/app_name"
+        android:yearListItemTextAppearance="@android:color/holo_red_dark"
+        android:scrollbars="vertical" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:text="@string/rezerva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+</LinearLayout>

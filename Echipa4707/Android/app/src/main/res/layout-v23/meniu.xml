@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="@string/meniu_steakmania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="36sp" />
+
+            <TextView
+                android:text="@string/supe_creme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/supa_mediteraneana_cu_fructe_de_mare_400g_18lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox8"
+                android:cursorVisible="false"
+                android:contextClickable="true"
+                tools:ignore="TextViewEdits" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox9"
+                android:text="@string/ciorba_de_vitel_de_lapte_400g_9lei" />
+
+            <CheckBox
+                android:text="@string/supa_crema_zilei_400g_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox10" />
+
+            <TextView
+                android:text="@string/intreaba_ospatarul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28" />
+
+            <TextView
+                android:text="@string/salate_aperitiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/salata_caesar_350g_19lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox11" />
+
+            <TextView
+                android:text="@string/pui_asiatic_dressing_iaurt_mix_de_salate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29" />
+
+            <CheckBox
+                android:text="@string/salata_gama_350g_23_lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox12" />
+
+            <TextView
+                android:text="@string/muschi_de_vita_ou_mix_de_salate_legume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30" />
+
+            <TextView
+                android:text="@string/pasare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/frigarui_de_pui_yang_300g_22lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox13" />
+
+            <TextView
+                android:text="@string/pulpa_de_pui_legume_sos_thai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33" />
+
+            <CheckBox
+                android:text="@string/aripioare_de_pui_300g_24_lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox14" />
+
+            <TextView
+                android:text="@string/aripioare_in_crusta_pan_cu_duet_de_sosuri_chillie_dixie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34" />
+
+            <CheckBox
+                android:text="@string/pulpa_de_rata_confiata_350g_29lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox15" />
+
+            <TextView
+                android:text="@string/pulpa_de_rata_la_cuptor_pe_pat_de_piure_de_cartofi_dulci_si_sparanghel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35" />
+
+            <TextView
+                android:text="@string/berbecut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/tigaie_de_berbecut_400g_29_lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox16" />
+
+            <TextView
+                android:text="@string/muschi_file_julien_branza_gouda_si_mamaliga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36" />
+
+            <CheckBox
+                android:text="@string/rack_berbecut_350g_33lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox21" />
+
+            <TextView
+                android:text="@string/cotlete_de_berbecut_la_gratar_cu_oregano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37" />
+
+            <CheckBox
+                android:text="@string/muschiulet_de_berbecut_250g_38lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox23" />
+
+            <TextView
+                android:text="@string/frigarui_de_muschiulet_limoni_la_gratar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38" />
+
+            <TextView
+                android:text="@string/porc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/cotletul_macelarului_350g_26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox22" />
+
+            <TextView
+                android:text="@string/mix_de_muschi_file_si_piept_de_porc_cu_rozmarin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <CheckBox
+                android:text="@string/turnedo_250g_26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox20" />
+
+            <TextView
+                android:text="@string/muschiulet_de_porc_la_gratar_cu_sos_de_trio_ciuperci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+
+            <CheckBox
+                android:text="@string/t_bone_de_porc_350g_26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox18" />
+
+            <TextView
+                android:text="@string/duet_de_muschi_la_gratar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12" />
+
+            <CheckBox
+                android:text="@string/porchetta_400g_28lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox17" />
+
+            <TextView
+                android:text="@string/piept_de_porc_marinat_cu_sos_de_ierburi_aromate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+
+            <CheckBox
+                android:text="@string/big_stake_500g_29lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox19" />
+
+            <TextView
+                android:text="@string/ceafa_de_porc_marinata_la_gratar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <CheckBox
+                android:text="@string/pork_ribs_500g_33lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox25" />
+
+            <TextView
+                android:text="@string/coasta_de_porc_la_gratar_cu_piper_mozaic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:text="@string/burger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/gama_burger_23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox27" />
+
+            <TextView
+                android:text="@string/vitel_sos_gama_mix_de_salate_castraveti_rosii_ceapa_branza_cheddar_bacon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+
+            <CheckBox
+                android:text="@string/chicken_burger_23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox28" />
+
+            <TextView
+                android:text="@string/piept_de_pui_crema_de_iaurt_mix_de_salate_castraveti_murati_ceapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19" />
+
+            <CheckBox
+                android:text="@string/lamb_greek_burger_23lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox30" />
+
+            <TextView
+                android:text="@string/miel_crema_de_iaurt_cu_menta_mix_de_salate_castraveti_ceapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40" />
+
+            <TextView
+                android:text="@string/paste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/paste_al_forno_350g_21lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox29" />
+
+            <TextView
+                android:text="@string/sos_roze_legume_primavera_piept_de_pui_mozzarella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41" />
+
+            <CheckBox
+                android:text="@string/paste_siciliene_350g_22lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox26" />
+
+            <TextView
+                android:text="@string/sos_roze_vinete_bacon_de_casa_branza_cheddar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView42" />
+
+            <CheckBox
+                android:text="@string/paste_carbonara_350g_24lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox24" />
+
+            <TextView
+                android:text="@string/panna_bacon_de_casa_gorgonzola_parmezan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView43" />
+
+            <CheckBox
+                android:text="@string/paste_cu_muschi_de_vita_350g_26lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox31" />
+
+            <TextView
+                android:text="@string/muschi_de_vita_usturoi_ardei_iute_parmezan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44" />
+
+            <TextView
+                android:text="@string/vita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/frigarui_black_angus_250g_36lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox33"
+                tools:text="Frigarui Black Angus   250g     36lei" />
+
+            <TextView
+                android:text="@string/cuburi_de_vita_cu_legume_la_gratar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45" />
+
+            <CheckBox
+                android:text="@string/muschi_de_vita_la_gratar_cu_sos_la_alegere_250g_44lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox34" />
+
+            <TextView
+                android:text="@string/gorgonzola_piper_verde_trio_de_ciuperci_cu_crema_de_trufe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView46" />
+
+            <CheckBox
+                android:text="@string/antricot_argentina_350_400g_70lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox35" />
+
+            <TextView
+                android:text="@string/antricot_cu_os_in_crusta_de_piper_color_cu_unt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView47" />
+
+            <CheckBox
+                android:text="@string/delmonico_steak_350_35lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox36" />
+
+            <TextView
+                android:text="@string/cotlet_de_vitel_de_lapte_la_gratar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView48" />
+
+            <CheckBox
+                android:text="@string/beef_sparanghel_300g_56lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox32" />
+
+            <TextView
+                android:text="@string/sparanghel_invelit_in_muschi_de_vita_ardei_copt_branza_gouda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49" />
+
+            <TextView
+                android:text="@string/garnituri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/inele_de_ceapa_tempura_180g_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox39" />
+
+            <CheckBox
+                android:text="@string/cartofi_gratinati_180g_7lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox38" />
+
+            <CheckBox
+                android:text="@string/legume_la_gratar_180g_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox41" />
+
+            <CheckBox
+                android:text="@string/cartofi_la_cuptor_cu_rozmarin_180g_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox40" />
+
+            <CheckBox
+                android:text="@string/salata_asortata_180g_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox37" />
+
+            <TextView
+                android:text="@string/desert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/tarta_cu_mere_160g_14lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox45" />
+
+            <CheckBox
+                android:text="@string/tortul_casei_160g_11lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox46" />
+
+            <CheckBox
+                android:text="@string/cheesecake_cu_fructe_de_padure_160g_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox44" />
+
+            <CheckBox
+                android:text="@string/sufleu_de_ciocolata_cu_inghetata_200g_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox43" />
+
+            <CheckBox
+                android:text="@string/inghetata_asortata_150g_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox42"
+                tools:ignore="TooManyViews" />
+
+            <TextView
+                android:text="@string/vin_la_pahar_0_15_l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/tarla_101_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2" />
+
+            <TextView
+                android:text="@string/alb_rosu_rose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView51" />
+
+            <CheckBox
+                android:text="@string/cramele_recas_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox3" />
+
+            <TextView
+                android:text="@string/castelul_huniade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView52" />
+
+            <CheckBox
+                android:text="@string/cramele_recas_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox" />
+
+            <TextView
+                android:text="@string/castelul_huniade_merlot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView53" />
+
+            <TextView
+                android:text="@string/champagne_prosecco_0_75l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/moet_rose_390lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox5" />
+
+            <CheckBox
+                android:text="@string/moet_brut_350lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox6" />
+
+            <CheckBox
+                android:text="@string/laurent_perrier_rose_490lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox7" />
+
+            <CheckBox
+                android:text="@string/foss_marai_brut_rose_98lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4" />
+
+            <TextView
+                android:text="@string/long_drinks_0_2l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView55"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/gin_tonic_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox48" />
+
+            <TextView
+                android:text="@string/gin_apa_tonica_gheata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView56" />
+
+            <CheckBox
+                android:text="@string/campari_orange_17lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox49" />
+
+            <TextView
+                android:text="@string/campari_orange_juice_gheata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView57" />
+
+            <CheckBox
+                android:text="@string/cuba_libre_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox50" />
+
+            <TextView
+                android:text="@string/rom_pepsi_cola_gheata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView58" />
+
+            <CheckBox
+                android:text="@string/vodka_tonic_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox47" />
+
+            <TextView
+                android:text="@string/vodka_apa_tonica_gheata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView59" />
+
+            <TextView
+                android:text="@string/bautura_calda_0_33l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView60"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/ceai_verde_cu_menta_8lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox52" />
+
+            <CheckBox
+                android:text="@string/ceai_fructul_pasiunii_8lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox54" />
+
+            <CheckBox
+                android:text="@string/ceai_rooibos_8lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox53" />
+
+            <CheckBox
+                android:text="@string/ceai_english_breakfast_8lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox51" />
+
+            <TextView
+                android:text="@string/ciocolata_calda_0_2l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView61"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/fondata_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox56" />
+
+            <CheckBox
+                android:text="@string/migdala_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox57" />
+
+            <CheckBox
+                android:text="@string/picanta_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox55" />
+
+            <TextView
+                android:text="@string/cidru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView62"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/strongbow_0_33l_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox59" />
+
+            <CheckBox
+                android:text="@string/old_mout_kiwi_lime_0_5l_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox60" />
+
+            <CheckBox
+                android:text="@string/old_mout_passion_fruit_apple_0_5l_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox58" />
+
+            <TextView
+                android:text="@string/bere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView63"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/heineken_0_33l_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox62" />
+
+            <CheckBox
+                android:text="@string/amstel_0_33l_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox63" />
+
+            <CheckBox
+                android:text="@string/corona_0_33l_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox65" />
+
+            <CheckBox
+                android:text="@string/zipfer_0_33l_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox64" />
+
+            <CheckBox
+                android:text="@string/birra_moretti_0_33l_11lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox61" />
+
+            <TextView
+                android:text="@string/vin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView64"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/negrini_64lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox67" />
+
+            <CheckBox
+                android:text="@string/domeniile_coroanei_rose_67lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox70" />
+
+            <CheckBox
+                android:text="@string/tarla_101_56lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox71" />
+
+            <CheckBox
+                android:text="@string/lambrusco_rose_64lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox68" />
+
+            <CheckBox
+                android:text="@string/feteasca_neagra_58lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox72" />
+
+            <CheckBox
+                android:text="@string/cabernet_sauvignon_merlot_58lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox69" />
+
+            <CheckBox
+                android:text="@string/whispering_angel_138lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox66" />
+
+            <TextView
+                android:text="@string/whiskey_40_ml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView65"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/jack_daniel_s_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox75" />
+
+            <CheckBox
+                android:text="@string/chivas_regal_12_yo_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox74" />
+
+            <CheckBox
+                android:text="@string/glenfiddich_12_yo_16lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox73" />
+
+            <TextView
+                android:text="@string/vodka_40_ml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView66"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/grey_goose_19lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox77" />
+
+            <CheckBox
+                android:text="@string/ciroc_17lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox76" />
+
+            <TextView
+                android:text="@string/digestive_40_ml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView67"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/jagermeister_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox79" />
+
+            <CheckBox
+                android:text="@string/limoncelo_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox78" />
+
+            <TextView
+                android:text="@string/cafea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView68"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/espresso_40ml_7lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox82" />
+
+            <CheckBox
+                android:text="@string/cappuccion_60ml_9lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox84" />
+
+            <CheckBox
+                android:text="@string/caffe_latte_200ml_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox81" />
+
+            <CheckBox
+                android:text="@string/irish_coffe_100ml_14lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox83" />
+
+            <CheckBox
+                android:text="@string/fredo_caffe_200ml_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox80" />
+
+            <TextView
+                android:text="@string/racoritoare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView70"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/pepsi_250ml_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox86" />
+
+            <CheckBox
+                android:text="@string/mirinda_250ml_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox88" />
+
+            <CheckBox
+                android:text="@string/_7_up_250ml_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox90" />
+
+            <CheckBox
+                android:text="@string/lipton_250ml_7lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox89" />
+
+            <CheckBox
+                android:text="@string/prigat_250ml_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox91" />
+
+            <CheckBox
+                android:text="@string/evervess_200ml_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox87" />
+
+            <CheckBox
+                android:text="@string/apa_bucovina_0_33l_6_5lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox85" />
+
+            <TextView
+                android:text="@string/limonada_0_4_l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView71"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/limonada_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox93" />
+
+            <CheckBox
+                android:text="@string/limonada_cu_miere_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox94" />
+
+            <CheckBox
+                android:text="@string/limonada_cu_menta_10lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox92" />
+
+            <TextView
+                android:text="@string/fresh_0_2l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView72"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <CheckBox
+                android:text="@string/fresh_de_portocale_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox96" />
+
+            <CheckBox
+                android:text="@string/fresh_de_grapefruit_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox97" />
+
+            <CheckBox
+                android:text="@string/fresh_mixt_12lei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox95" />
+
+            <Button
+                android:text="@string/comanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
